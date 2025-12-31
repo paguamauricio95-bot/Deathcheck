@@ -2,9 +2,8 @@
 	"geode": "3.0.0-beta.1",
 	"gd": "2.206",
 	"id": "mauflaco.deathcheck",
-	"name": "DeathCheck (Beta)",
+	"name": "DeathCheck",
 	"developer": "Mauflaco",
-	"version": "1.0.0-beta",
-	"description": "Beta version of DeathCheck"
+	"version": "1.0.0",
+	"description": "Mi primer mod"
 }
-
