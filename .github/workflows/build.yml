@@ -1,3 +1,16 @@
-permissions:
-  contents: write
-  
+name: Build Geode Mod
+on: [push, workflow_dispatch]
+
+jobs:
+  build:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build Mod
+        uses: geode-sdk/build-geode-action@main
+        with:
+          target: Android64
+          combine: true
+          
