@@ -1,9 +1,9 @@
 {
-	"geode": "3.0.0-beta.1",
-	"gd": "2.206",
+	"geode": "1.6.1",
+	"gd": "2.207",
 	"id": "mauflaco.deathcheck",
 	"name": "DeathCheck",
 	"developer": "Mauflaco",
 	"version": "1.0.0",
-	"description": "Mi primer mod"
+	"description": "Mod para Geode 1.6.1 y GD 2.207"
 }
