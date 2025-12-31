@@ -6,9 +6,7 @@ using namespace geode::prelude;
 class $modify(MenuLayer) {
     bool init() {
         if (!MenuLayer::init()) return false;
-
-        log::info("¡Hola desde el mod de Mau!");
-        
+        log::info("¡Mod de Mau funcionando!");
         return true;
     }
 };
